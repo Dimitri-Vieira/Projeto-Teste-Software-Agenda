@@ -68,7 +68,7 @@ public class ContatoDAO {
 
             //adicionar os valores para atualizar
             pstm.setString(1, contato.getNome());
-            pstm.setInt(2, contato.getId());
+            pstm.setInt(2, contato.getIdade());
             pstm.setDate(3, new Date(contato.getDataCadastro().getTime()));
 
             //qual o id do registro que deseja atualizar?
