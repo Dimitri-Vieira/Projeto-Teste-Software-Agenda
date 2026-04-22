@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: br.com.agenda.aplicacao.AgendaTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.128 s <<< FAILURE! -- in br.com.agenda.aplicacao.AgendaTest
+br.com.agenda.aplicacao.AgendaTest.testeDeFalhaProposital -- Time elapsed: 0.062 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: O valor deveria ser 10, mas foi 5 ==> expected: <10> but was: <5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at br.com.agenda.aplicacao.AgendaTest.testeDeFalhaProposital(AgendaTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

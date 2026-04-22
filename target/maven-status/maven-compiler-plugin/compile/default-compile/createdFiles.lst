@@ -1,0 +1,4 @@
+br\com\agenda\factory\ConnectionFactory.class
+br\com\agenda\aplicacao\Main.class
+br\com\agenda\model\Contato.class
+br\com\agenda\dao\ContatoDAO.class
