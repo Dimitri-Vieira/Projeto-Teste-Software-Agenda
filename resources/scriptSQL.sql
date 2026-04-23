@@ -1,6 +1,14 @@
-create table contatos(
+CREATE TABLE usuarios (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    login VARCHAR(50) UNIQUE NOT NULL,
+    senha VARCHAR(50) NOT NULL
+);
 
-id int not null auto_increment primary key,
-nome varchar(40),
-idade int,
-dataCadastro date)
+CREATE TABLE contatos (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(40),
+    telefone VARCHAR(20), -- Substituído: idade INT por telefone VARCHAR
+    dataCadastro DATE,
+    id_usuario INT NOT NULL,
+    FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
+);

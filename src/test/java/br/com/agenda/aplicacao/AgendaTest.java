@@ -15,6 +15,6 @@ public class AgendaTest {
     public void testeDeFalhaProposital() {
         System.out.println("Executando teste que falha para a atividade...");
         // Isso vai fazer o Pipeline parar e acusar erro
-        Assertions.assertEquals(10, 5, "O valor deveria ser 10, mas foi 5");
+        Assertions.assertEquals(5, 5, "O valor deveria ser 10, mas foi 5");
     }
 }
