@@ -45,6 +45,7 @@ public class ContatoDAO {
                     c.setNome(rset.getString("nome"));
                     c.setTelefone(rset.getString("telefone")); // Recuperando o telefone
                     c.setDataCadastro(rset.getDate("datacadastro"));
+                    c.setIdUsuario(rset.getInt("id_usuario"));
                     contatos.add(c);
                 }
             }
