@@ -1,0 +1,13 @@
+# Arquivos compilados do Java
+*.class
+
+# Pastas do Maven
+target/
+
+# Pastas e arquivos de configuração do IntelliJ
+.idea/
+*.iml
+
+# Arquivos de sistema operacional (Mac/Windows)
+.DS_Store
+Thumbs.db
